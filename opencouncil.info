@@ -1,0 +1,36 @@
+name = OpenCouncil
+core = 7.x
+description = A distribution for local government.
+distribution_name = "OpenCouncil"
+
+; Panopoly Foundation
+dependencies[] = panopoly_core
+dependencies[] = panopoly_images
+dependencies[] = panopoly_theme
+dependencies[] = panopoly_magic
+dependencies[] = panopoly_widgets
+dependencies[] = panopoly_admin
+dependencies[] = panopoly_users
+
+; Panopoly Toolset
+dependencies[] = panopoly_pages
+dependencies[] = panopoly_search
+dependencies[] = panopoly_wysiwyg
+
+; Panopoly Recommended - Admin
+;dependencies[] = navbar
+dependencies[] = backports
+;dependencies[] = simplified_menu_admin
+dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
+dependencies[] = save_draft
+dependencies[] = module_filter
+dependencies[] = date_popup_authored
+
+; Panopoly Recommended - Other
+dependencies[] = devel
+dependencies[] = uuid
+
+files[] = "opencouncil.profile"
+
+
