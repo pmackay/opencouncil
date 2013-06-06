@@ -11,14 +11,14 @@ api = 2
 core = 7.x
 
 
-; Local modules
+; Localgov modules
 
-;projects[local_foodhub][version] = contrib
-;;projects[local_foodhub][type] = module
-;projects[local_foodhub][subdir] = openlocal
-;projects[local_foodhub][download][type] = git
-;projects[local_foodhub][download][url] = /Users/pmackay/dev/openlocal/local_foodhub
-;projects[local_foodhub][download][branch] = master
+projects[localgov_planning][version] = contrib
+projects[localgov_planning][type] = module
+projects[localgov_planning][subdir] = localgov
+projects[localgov_planning][download][type] = git
+projects[localgov_planning][download][url] = git@github.com:pmackay/localgov_planning.git
+projects[localgov_planning][download][branch] = master
 
 
 ; The Panopoly Foundation
